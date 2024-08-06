@@ -30,7 +30,7 @@ jobs:
     - name: tshirts fail
       run: bash .github/workflows/expectfail.sh python test_tshirts.py
     
-    - name: misaligned fail
+    - name: colormap fail
       run: bash .github/workflows/expectfail.sh python test_colormap.py
 
     - name: weatherreport fail
